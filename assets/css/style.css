@@ -1,0 +1,47 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.container {
+    display: flex;
+    flex-direction: row,;
+}
+#button1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: lightblue;
+    color: lightcoral;
+    font-size: 16px;
+    font-weight: 600;
+}
+#button2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: lightblue;
+    color: lightcoral;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16px;
+}
+
+.sumiu {
+    width: 100%;
+    background-color: black;
+}
